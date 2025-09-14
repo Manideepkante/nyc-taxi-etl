@@ -1,4 +1,3 @@
-````markdown
 # 🚖 NYC Taxi ETL Pipeline — Python + SQL + AWS S3
 
 ## 📌 Overview
