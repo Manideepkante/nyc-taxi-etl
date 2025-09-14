@@ -20,6 +20,22 @@ This project demonstrates an **end-to-end ETL pipeline** for large-scale data pr
 
 ---
 
+## 📂 Dataset
+This repository includes a **sample dataset** (`sample_data.csv`, ~1,000 rows) for demonstration purposes.  
+The full **NYC Yellow Taxi dataset (1.5M+ records, Jan 2024)** is too large for GitHub, but it is available at:  
+
+🔗 [NYC TLC Open Data](https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf)  
+
+The full cleaned dataset is stored in my **AWS S3 bucket** as part of the ETL pipeline:  
+
+```
+
+s3://etl-demo-mani/processed/yellow\_tripdata\_clean.csv
+
+````
+
+---
+
 ## 📊 Results
 | Step        | Median Time (s) | Mean Time (s) |
 |-------------|-----------------|---------------|
@@ -34,7 +50,7 @@ This project demonstrates an **end-to-end ETL pipeline** for large-scale data pr
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/<your-username>/nyc-taxi-etl.git
+   git clone https://github.com/Manideepkante/nyc-taxi-etl.git
    cd nyc-taxi-etl
 
 
@@ -45,20 +61,13 @@ This project demonstrates an **end-to-end ETL pipeline** for large-scale data pr
    ```
 
 3. **Run the ETL pipeline**
+   Open Jupyter Notebook and run:
 
-   ```bash
-   jupyter notebook notebooks/ETL_pipeline.ipynb
+   ```
+   ETL_PIPELINE.ipynb
    ```
 
 ---
-
-## 📂 Dataset
-
-For demonstration, this repository includes a small sample (`data/sample.csv`, 1,000 rows).  
-The full **NYC Yellow Taxi dataset (1.5M+ records, Jan 2024)** was too large for GitHub,  
-but it is available on [NYC TLC Data](https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf)  
-and stored in my **AWS S3 bucket** as part of this ETL pipeline:
-
 
 ## 🌐 Cloud Storage
 
