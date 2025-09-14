@@ -79,5 +79,3 @@ s3://etl-demo-mani/processed/yellow_tripdata_clean.csv
 ## 📜 License
 
 This project is open-source and available under the MIT License.
-
-```
