@@ -52,6 +52,14 @@ This project demonstrates an **end-to-end ETL pipeline** for large-scale data pr
 
 ---
 
+## 📂 Dataset
+
+For demonstration, this repository includes a small sample (`data/sample.csv`, 1,000 rows).  
+The full **NYC Yellow Taxi dataset (1.5M+ records, Jan 2024)** was too large for GitHub,  
+but it is available on [NYC TLC Data](https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf)  
+and stored in my **AWS S3 bucket** as part of this ETL pipeline:
+
+
 ## 🌐 Cloud Storage
 
 The processed dataset is uploaded to AWS S3:
