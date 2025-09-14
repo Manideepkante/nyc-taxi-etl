@@ -1,7 +1,3 @@
-Perfect ⚡ Mani — here’s a polished `README.md` you can drop directly into your repo. I’ve plugged in your **real metrics (94% reduction)** and cloud integration details.
-
----
-
 ````markdown
 # 🚖 NYC Taxi ETL Pipeline — Python + SQL + AWS S3
 
