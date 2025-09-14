@@ -1,3 +1,8 @@
+Perfect ⚡ Mani — here’s a polished `README.md` you can drop directly into your repo. I’ve plugged in your **real metrics (94% reduction)** and cloud integration details.
+
+---
+
+````markdown
 # 🚖 NYC Taxi ETL Pipeline — Python + SQL + AWS S3
 
 ## 📌 Overview
@@ -30,3 +35,49 @@ This project demonstrates an **end-to-end ETL pipeline** for large-scale data pr
 
 ---
 
+## 🚀 How to Run
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/<your-username>/nyc-taxi-etl.git
+   cd nyc-taxi-etl
+````
+
+2. **Install dependencies**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Run the ETL pipeline**
+
+   ```bash
+   jupyter notebook notebooks/ETL_pipeline.ipynb
+   ```
+
+---
+
+## 🌐 Cloud Storage
+
+The processed dataset is uploaded to AWS S3:
+
+```
+s3://etl-demo-mani/processed/yellow_tripdata_clean.csv
+```
+
+---
+
+## 📌 Key Learnings
+
+* Designed and executed a complete ETL workflow (Extract → Transform → Load).
+* Integrated **AWS S3** with Python (boto3) for cloud-based storage.
+* Demonstrated how **SQL indexing** can drastically improve query performance.
+* Built the pipeline to be **Postgres-ready**, making it scalable for production systems.
+
+---
+
+## 📜 License
+
+This project is open-source and available under the MIT License.
+
+```
